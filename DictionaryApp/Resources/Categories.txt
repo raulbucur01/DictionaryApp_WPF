@@ -1,0 +1,11 @@
+10
+nicio categorie
+obiect sportiv
+fruct exotic
+electronice
+leguma
+produs lactat
+substanta
+haine
+planta aromatica
+animal

@@ -1,0 +1,47 @@
+﻿<Window x:Class="DictionaryApp.Views.AdminModule.AddWordWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DictionaryApp.Views.AdminModule"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner"
+        Title="Adaugare cuvant" Height="450" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="106.04"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" Height="50">
+            <Button Name="addWordBtn" Content="Adauga Cuvant" FontSize="16"
+                    Width="150" Height="50"
+                    Click="addWordBtn_Click"/>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="Introduceti datele cuvantului nou: " FontSize="20" HorizontalAlignment="Center" Margin="0,30,0,0"/>
+            <StackPanel Orientation="Horizontal" Height="50" HorizontalAlignment="Center" Margin="0,40,0,0">
+                <Label Content="Cuvant:    " Height="30" FontSize="16"/>
+                <TextBox Name="wordTb" Width="150" Height="30" FontSize="16"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50" HorizontalAlignment="Center">
+                <Label Content="Descriere: " Height="30" FontSize="16"/>
+                <TextBox Name="descriptionTb" Width="150" Height="30" FontSize="16"
+                         TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Height="50" HorizontalAlignment="Center">
+                <Label Content="Categorie: " Height="31" FontSize="16"/>
+                <ComboBox Name="categoryCb" Width="150" Height="30"
+                          IsEditable="False" FontSize="16">
+                </ComboBox>
+                <Button Name="newCategoryBtn" Width="50" Height="30" Content="Nou" Click="newCategoryBtn_Click"/>
+            </StackPanel>
+
+            <Button Name="photoSelectBtn" Content="Alege imagine" FontSize="16" Height="50" Width="110"
+                    Click="photoSelectBtn_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
