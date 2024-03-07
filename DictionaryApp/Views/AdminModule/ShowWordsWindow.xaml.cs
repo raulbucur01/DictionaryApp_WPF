@@ -30,6 +30,7 @@ namespace DictionaryApp.Views.AdminModule
 
                 WordInfoWindow wordInfoWindow = new WordInfoWindow(this, word);
                 wordInfoWindow.Show();
+                wordsListBox.SelectedItem = null;
             }
         }
 

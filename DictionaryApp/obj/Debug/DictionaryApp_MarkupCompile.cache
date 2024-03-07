@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\MY_CODE\MY Projects\C#\DictionaryApp\obj\Debug\
+C:\MY_CODE\GitHubRepos\DictionaryApp_WPF\DictionaryApp\obj\Debug\
 DictionaryApp
 none
 false
 DEBUG;TRACE
-C:\MY_CODE\MY Projects\C#\DictionaryApp\App.xaml
-10596068775
+C:\MY_CODE\GitHubRepos\DictionaryApp_WPF\DictionaryApp\App.xaml
+11486431699
 
-17-1733144464
-23-1456826569
-MainWindow.xaml;Views\AdminModule\AddWordWindow.xaml;Views\AdminModule\AdminMenuWindow.xaml;Views\AdminModule\DeleteWordWindow.xaml;Views\AdminModule\LoginWindow.xaml;Views\AdminModule\ModifyWordWindow.xaml;Views\AdminModule\NewCategoryWindow.xaml;Views\AdminModule\ShowWordsWindow.xaml;Views\AdminModule\WordInfoWindow.xaml;Views\AdminModule\WordModificationWindow.xaml;
+18478394064
+231104549120
+MainWindow.xaml;Views\AdminModule\AddWordWindow.xaml;Views\AdminModule\AdminMenuWindow.xaml;Views\AdminModule\DeleteWordWindow.xaml;Views\AdminModule\LoginWindow.xaml;Views\AdminModule\ModifyWordWindow.xaml;Views\AdminModule\NewCategoryWindow.xaml;Views\AdminModule\ShowWordsWindow.xaml;Views\AdminModule\WordInfoWindow.xaml;Views\AdminModule\WordModificationWindow.xaml;Views\GameModule\GameWindow.xaml;
 
 False
 

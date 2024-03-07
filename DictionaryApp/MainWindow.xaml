@@ -40,7 +40,9 @@
                          VerticalAlignment="Top" Width="500" Height="auto"
                          SelectionChanged="suggestionsListBox_SelectionChanged"/>
             </ScrollViewer>
-            
+
+            <Button Name="gameBtn" Height="30" Width="100" Content="Joc de ghicit" FontSize="16" Margin="50"
+                    Click="gameBtn_Click"/>
         </StackPanel>
     </Grid>
 </Window>

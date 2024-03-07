@@ -113,6 +113,9 @@
     <Compile Include="Views\AdminModule\WordModificationWindow.xaml.cs">
       <DependentUpon>WordModificationWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\GameModule\GameWindow.xaml.cs">
+      <DependentUpon>GameWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -161,6 +164,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Views\GameModule\GameWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -203,8 +210,6 @@
   <ItemGroup>
     <Resource Include="Resources\banana.jpg" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\GameModule\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

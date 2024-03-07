@@ -30,7 +30,7 @@
 
                 <StackPanel Orientation="Horizontal" Height="50" HorizontalAlignment="Center">
                     <Label Content="Descriere: " Height="30" FontSize="16"/>
-                    <TextBox Name="descriptionTb" Width="150" Height="30" FontSize="16"
+                    <TextBox Name="descriptionTb" Width="150" Height="50" FontSize="16"
                      TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
                 </StackPanel>
 

@@ -1,4 +1,5 @@
 ﻿using DictionaryApp.Views.AdminModule;
+using DictionaryApp.Views.GameModule;
 using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
@@ -95,6 +96,12 @@ namespace DictionaryApp
                 wordInfoWindow.Show();
                 suggestionsListBox.SelectedItem = null;
             }
+        }
+
+        private void gameBtn_Click(object sender, RoutedEventArgs e)
+        {
+            GameWindow gameWindow = new GameWindow(this);
+            gameWindow.ShowDialog();
         }
     }
 }
