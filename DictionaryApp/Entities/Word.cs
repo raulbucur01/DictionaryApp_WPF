@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace DictionaryApp.Entities
 {
@@ -46,6 +47,34 @@ namespace DictionaryApp.Entities
             Description = description;
             Category = category;
             PicturePath = picturePath;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+
+            Word other = (Word)obj;
+            return WordName == other.WordName && 
+                   Description == other.Description &&
+                   Category == other.Category &&
+                   PicturePath == other.PicturePath;
+        }
+
+        public override int GetHashCode()
+        {
+            int hashCode = -1150115036;
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(_wordName);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(_description);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(_category);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(_picturePath);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(WordName);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Description);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(Category);
+            hashCode = hashCode * -1521134295 + EqualityComparer<string>.Default.GetHashCode(PicturePath);
+            return hashCode;
         }
     }
 }

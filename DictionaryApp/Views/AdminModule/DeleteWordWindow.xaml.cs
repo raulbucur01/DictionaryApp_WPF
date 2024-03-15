@@ -12,13 +12,7 @@ namespace DictionaryApp.Views.AdminModule
             Owner = owner;
             InitializeComponent();
 
-            List<Word> words = App._repository.Words;
-
-            _wordStrings = new List<string>();
-            foreach (Word word in words)
-            {
-                _wordStrings.Add(word.WordName);
-            }
+            List<string> _wordStrings = App._repository.GetAllWordNames();
             wordsListBox.ItemsSource = _wordStrings;
         }
 
@@ -34,12 +28,17 @@ namespace DictionaryApp.Views.AdminModule
                     App._repository.DeleteWord(selectedItem);
                     MessageBox.Show($"Cuvantul '{selectedItem}' a fost sters cu success!",
                                     "Stergere cu success", MessageBoxButton.OK, MessageBoxImage.Information);
-                        
+
                     // scoatem din lista
-                    _wordStrings.Remove(selectedItem);
-                    // reinitializam ItemsSource pt a updata lista
-                    wordsListBox.ItemsSource = null;
+                    _wordStrings = App._repository.GetAllWordNames();
                     wordsListBox.ItemsSource = _wordStrings;
+                }
+                else
+                {
+                    if (wordsListBox.SelectedItem != null)
+                    {
+                        wordsListBox.SelectedItem = null;
+                    }
                 }
             }
         }
@@ -56,6 +55,22 @@ namespace DictionaryApp.Views.AdminModule
             }
 
             e.Handled = true;
+        }
+
+        private void searchTb_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(searchTb.Text))
+            {
+                string searchedText = searchTb.Text;
+
+                List<string> suggestions = App._repository.GetSuggestions(searchedText);
+
+                wordsListBox.ItemsSource = suggestions;
+            }
+            else
+            {
+                wordsListBox.ItemsSource = App._repository.GetAllWordNames();
+            }
         }
     }
 }

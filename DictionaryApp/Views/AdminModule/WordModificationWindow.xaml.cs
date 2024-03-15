@@ -16,7 +16,7 @@ namespace DictionaryApp.Views.AdminModule
 
             _wordToModify = wordToModify;
             // obiectul Word pe care vrem sa il modificam
-            Word wordObjectToModify = App._repository.GetWordByName(wordToModify); 
+            Word wordObjectToModify = App._repository.GetWordByName(wordToModify);
 
             // punem datele obiectului Word in casute
             greetingLabel.Content = $"Modificati cuvantul '{wordObjectToModify.WordName}'";
@@ -49,12 +49,40 @@ namespace DictionaryApp.Views.AdminModule
                 string newCategory = categoryCb.SelectedItem as string;
                 string newSelectedPictureFilePath = _picturePath;
 
+
                 Word updatedWord = new Word(newWordName, newDescription, newCategory, newSelectedPictureFilePath);
-                App._repository.UpdateWord(_wordToModify, updatedWord);
 
-                MessageBox.Show("Cuvant modificat cu succes!", "", MessageBoxButton.OK, MessageBoxImage.Information);
+                if (newWordName != _wordToModify)
+                {
+                    if (App._repository.WordNameExists(updatedWord.WordName))
+                    {
+                        MessageBox.Show("Cuvantul exista deja!", "", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                    else
+                    {
+                        App._repository.UpdateWord(_wordToModify, updatedWord);
 
-                Close();
+                        MessageBox.Show("Cuvant modificat cu succes!", "", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                        Close();
+                    }
+                }
+                else
+                {
+                    if (App._repository.WordExists(updatedWord))
+                    {
+                        MessageBox.Show("Cuvantul exista deja!", "", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                    else
+                    {
+                        App._repository.UpdateWord(_wordToModify, updatedWord);
+
+                        MessageBox.Show("Cuvant modificat cu succes!", "", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                        Close();
+                    }
+
+                }
             }
         }
 

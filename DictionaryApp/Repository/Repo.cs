@@ -1,7 +1,6 @@
 ﻿using DictionaryApp.Entities;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.IO;
 using System.Text.Json;
 
@@ -28,6 +27,41 @@ namespace DictionaryApp.Repository
             AppDomain.CurrentDomain.ProcessExit += OnProcessExit;
         }
 
+        public (string, int, string, int) GetRandomPicturePathOrDescriptionAndAnswer(List<int> alreadySelectedIndexes)
+        {
+            Random rand = new Random();
+
+            int randomIndex = rand.Next(0, _words.Count);
+            while (alreadySelectedIndexes.Contains(randomIndex))
+            {
+                randomIndex = rand.Next(0, _words.Count);
+            }
+
+            Word randomWord = _words[randomIndex];
+
+            if (randomWord.PicturePath.Contains("default"))
+                return (randomWord.Description, 1, randomWord.WordName, randomIndex);
+            else
+            {
+                int randomChoice = rand.Next(1, 3);
+
+                if (randomChoice == 1)
+                    return (randomWord.Description, 1, randomWord.WordName, randomIndex);
+                else
+                    return (randomWord.PicturePath, 2, randomWord.WordName, randomIndex);
+            }
+        }
+
+        public List<string> GetAllWordNames()
+        {
+            List<string> allWordNames = new List<string>();
+            foreach (Word w in _words)
+            {
+                allWordNames.Add(w.WordName);
+            }
+
+            return allWordNames;
+        }
         public List<string> GetSuggestions(string searchedText, string category = "")
         {
             List<string> suggestions = new List<string>();
@@ -80,9 +114,36 @@ namespace DictionaryApp.Repository
             set { _categories = value; }
         }
 
+        public bool CategoryExists(string category)
+        {
+            if (_categories.Contains(category))
+                return true;
+
+            return false;
+        }
+
         public void AddCategory(string category)
         {
             _categories.Add(category);
+        }
+
+        public bool WordNameExists(string wordName)
+        {
+            foreach (Word w in _words)
+            {
+                if (w.WordName == wordName)
+                    return true;
+            }
+
+            return false;
+        }
+
+        public bool WordExists(Word word)
+        {
+            if (_words.Contains(word))
+                return true;
+
+            return false;
         }
 
         // Create operation

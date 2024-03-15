@@ -25,8 +25,8 @@ namespace DictionaryApp
         {
             if (string.IsNullOrEmpty(searchTb.Text))
             {
-                suggestionsScrollViewer.Visibility = Visibility.Hidden;
-                suggestionsListBox.Visibility = Visibility.Hidden;   
+                suggestionsScrollViewer.Visibility = Visibility.Collapsed;
+                suggestionsListBox.Visibility = Visibility.Collapsed;   
             }
             else if (!string.IsNullOrEmpty(searchTb.Text) && !searchTb.Text.Equals("Cautati un cuvant..."))
             {

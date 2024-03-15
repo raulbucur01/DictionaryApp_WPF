@@ -12,14 +12,8 @@ namespace DictionaryApp.Views.AdminModule
             Owner = parent;
             InitializeComponent();
 
-            List<Word> words = App._repository.Words;
-
-            _wordStrings = new List<string>();
-            foreach (Word word in words)
-            {
-                _wordStrings.Add(word.WordName);
-            }
-            wordsListBox.ItemsSource = _wordStrings;
+            List<string> wordStrings = App._repository.GetAllWordNames();
+            wordsListBox.ItemsSource = wordStrings;
         }
 
         private void wordsListBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
@@ -31,6 +25,8 @@ namespace DictionaryApp.Views.AdminModule
                 wordModificationWindow.ShowDialog();
 
                 wordsListBox.SelectedItem = null;
+                wordsListBox.ItemsSource = null;
+                wordsListBox.ItemsSource = App._repository.GetAllWordNames();
             }
         }
 
@@ -46,6 +42,22 @@ namespace DictionaryApp.Views.AdminModule
             }
 
             e.Handled = true;
+        }
+
+        private void searchTb_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(searchTb.Text))
+            {
+                string searchedText = searchTb.Text;
+
+                List<string> suggestions = App._repository.GetSuggestions(searchedText);
+
+                wordsListBox.ItemsSource = suggestions;
+            }
+            else
+            {
+                wordsListBox.ItemsSource = App._repository.GetAllWordNames();
+            }
         }
     }
 }

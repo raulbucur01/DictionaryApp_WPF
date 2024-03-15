@@ -3,64 +3,48 @@
   "WorkspaceRootPath": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\gamemodule\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\gamemodule\\gamewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\gamemodule\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\gamemodule\\gamewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\addwordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\addwordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\wordmodificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\wordmodificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\modifywordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\modifywordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\showwordswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\showwordswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\showwordswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\showwordswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\repository\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:repository\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\modifywordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\adminmodule\\modifywordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\modifywordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\deletewordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\deletewordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\adminmodule\\wordmodificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\wordmodificationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\adminmodule\\modifywordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\modifywordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\adminmodule\\wordmodificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\wordmodificationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\repository\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:repository\\repo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\adminmodule\\addwordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\addwordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\entities\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:entities\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\adminmodule\\showwordswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\showwordswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\views\\adminmodule\\deletewordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\deletewordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\resources\\categories.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:resources\\categories.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\adminmodule\\adminmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\adminmenuwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|c:\\my_code\\githubrepos\\dictionaryapp_wpf\\dictionaryapp\\views\\adminmodule\\deletewordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{621B34F2-35B0-4959-9D49-1053CE414A11}|DictionaryApp.csproj|solutionrelative:views\\adminmodule\\deletewordwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,180 +54,146 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\AdminModule\\LoginWindow.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\LoginWindow.xaml",
-              "RelativeToolTip": "Views\\AdminModule\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-07T14:09:34.563Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameWindow.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\GameModule\\GameWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\GameModule\\GameWindow.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\GameModule\\GameWindow.xaml.cs",
-              "RelativeToolTip": "Views\\GameModule\\GameWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAD4vxsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T14:06:59.97Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameWindow.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\GameModule\\GameWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\GameModule\\GameWindow.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\GameModule\\GameWindow.xaml",
-              "RelativeToolTip": "Views\\GameModule\\GameWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-07T14:06:50.402Z",
+              "Title": "Views\\AdminModule\\ModifyWordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ModifyWordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminModule\\ModifyWordWindow.xaml.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ModifyWordWindow.xaml.cs",
+              "RelativeToolTip": "Views\\AdminModule\\ModifyWordWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T14:40:13.952Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddWordWindow.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\AddWordWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\AdminModule\\AddWordWindow.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\AddWordWindow.xaml",
-              "RelativeToolTip": "Views\\AdminModule\\AddWordWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-07T13:40:11.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-05T13:07:29.544Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGcAAAAkAAAA",
+              "DocumentIndex": 1,
+              "Title": "WordModificationWindow.xaml.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\WordModificationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminModule\\WordModificationWindow.xaml.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\WordModificationWindow.xaml.cs",
+              "RelativeToolTip": "Views\\AdminModule\\WordModificationWindow.xaml.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAiwFYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T12:37:39.501Z"
+              "WhenOpened": "2024-03-12T14:20:50.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "WordModificationWindow.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\WordModificationWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\AdminModule\\WordModificationWindow.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\WordModificationWindow.xaml",
-              "RelativeToolTip": "Views\\AdminModule\\WordModificationWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-07T13:55:04.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "ModifyWordWindow.xaml",
               "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ModifyWordWindow.xaml",
               "RelativeDocumentMoniker": "Views\\AdminModule\\ModifyWordWindow.xaml",
               "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ModifyWordWindow.xaml",
               "RelativeToolTip": "Views\\AdminModule\\ModifyWordWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-05T14:47:39.811Z"
+              "WhenOpened": "2024-03-12T14:39:42.787Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Repo.cs",
               "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Repository\\Repo.cs",
               "RelativeDocumentMoniker": "Repository\\Repo.cs",
               "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Repository\\Repo.cs",
               "RelativeToolTip": "Repository\\Repo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAnwJEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T14:09:26.049Z"
+              "WhenOpened": "2024-03-12T14:42:43.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WordModificationWindow.xaml",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\WordModificationWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminModule\\WordModificationWindow.xaml",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\WordModificationWindow.xaml",
+              "RelativeToolTip": "Views\\AdminModule\\WordModificationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-12T14:59:53.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Word.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Entities\\Word.cs",
+              "RelativeDocumentMoniker": "Entities\\Word.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Entities\\Word.cs",
+              "RelativeToolTip": "Entities\\Word.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:25:46.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddWordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\AddWordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminModule\\AddWordWindow.xaml.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\AddWordWindow.xaml.cs",
+              "RelativeToolTip": "Views\\AdminModule\\AddWordWindow.xaml.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAcwCcAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:28:48Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ShowWordsWindow.xaml",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ShowWordsWindow.xaml",
-              "RelativeDocumentMoniker": "Views\\AdminModule\\ShowWordsWindow.xaml",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ShowWordsWindow.xaml",
-              "RelativeToolTip": "Views\\AdminModule\\ShowWordsWindow.xaml",
+              "Title": "AdminMenuWindow.xaml",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\AdminMenuWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\AdminModule\\AdminMenuWindow.xaml",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\AdminMenuWindow.xaml",
+              "RelativeToolTip": "Views\\AdminModule\\AdminMenuWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-05T14:45:39.025Z"
+              "WhenOpened": "2024-03-12T14:39:25.181Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
+              "Title": "Views\\AdminModule\\DeleteWordWindow.xaml.cs",
+              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\DeleteWordWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\AdminModule\\DeleteWordWindow.xaml.cs",
+              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\DeleteWordWindow.xaml.cs",
+              "RelativeToolTip": "Views\\AdminModule\\DeleteWordWindow.xaml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T14:18:04.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ShowWordsWindow.xaml.cs",
               "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ShowWordsWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AdminModule\\ShowWordsWindow.xaml.cs",
               "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ShowWordsWindow.xaml.cs",
               "RelativeToolTip": "Views\\AdminModule\\ShowWordsWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAwwCAAAAAxAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwDkAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T14:46:07.545Z"
+              "WhenOpened": "2024-03-12T14:17:45.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ModifyWordWindow.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ModifyWordWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\AdminModule\\ModifyWordWindow.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\ModifyWordWindow.xaml.cs",
-              "RelativeToolTip": "Views\\AdminModule\\ModifyWordWindow.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA0wBAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T14:48:08.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "DeleteWordWindow.xaml",
               "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\DeleteWordWindow.xaml",
               "RelativeDocumentMoniker": "Views\\AdminModule\\DeleteWordWindow.xaml",
               "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\DeleteWordWindow.xaml",
               "RelativeToolTip": "Views\\AdminModule\\DeleteWordWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-05T14:48:42.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeleteWordWindow.xaml.cs",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\DeleteWordWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\AdminModule\\DeleteWordWindow.xaml.cs",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Views\\AdminModule\\DeleteWordWindow.xaml.cs",
-              "RelativeToolTip": "Views\\AdminModule\\DeleteWordWindow.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwCkAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T14:49:08.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Categories.txt",
-              "DocumentMoniker": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Resources\\Categories.txt",
-              "RelativeDocumentMoniker": "Resources\\Categories.txt",
-              "ToolTip": "C:\\MY_CODE\\GitHubRepos\\DictionaryApp_WPF\\DictionaryApp\\Resources\\Categories.txt",
-              "RelativeToolTip": "Resources\\Categories.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-03-05T13:36:14.541Z"
+              "WhenOpened": "2024-03-05T14:48:42.996Z",
+              "EditorCaption": ""
             }
           ]
         }

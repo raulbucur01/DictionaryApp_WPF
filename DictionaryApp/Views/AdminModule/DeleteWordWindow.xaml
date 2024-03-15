@@ -9,13 +9,16 @@
         WindowStartupLocation="CenterOwner"
         Title="Alegeti un cuvant" Height="250" Width="180">
     <Grid>
-        <ScrollViewer Name="wordsListScrollViewer" VerticalScrollBarVisibility="Auto">
-            <ListBox Name="wordsListBox" 
-             HorizontalContentAlignment="Stretch"
-             VerticalContentAlignment="Stretch"
-             Margin="10"
-             SelectionChanged="wordsListBox_SelectionChanged"
-             PreviewMouseWheel="wordsListBox_PreviewMouseWheel"/>
-        </ScrollViewer>
+        <StackPanel>
+            <TextBox Name="searchTb" Margin="10" Height="24" TextChanged="searchTb_TextChanged"/>
+            <ScrollViewer Name="wordsListScrollViewer" VerticalScrollBarVisibility="Auto" Height="167">
+                <ListBox Name="wordsListBox" 
+                 HorizontalContentAlignment="Stretch"
+                 VerticalContentAlignment="Stretch"
+                 Margin="10"
+                 SelectionChanged="wordsListBox_SelectionChanged"
+                 PreviewMouseWheel="wordsListBox_PreviewMouseWheel"/>
+            </ScrollViewer>
+        </StackPanel>
     </Grid>
 </Window>

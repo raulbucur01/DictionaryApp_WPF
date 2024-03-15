@@ -37,15 +37,21 @@ namespace DictionaryApp.Views.AdminModule
 
                 Word wordToAdd = new Word(wordName, description, category, selectedPictureFilePath);
 
-                App._repository.AddWord(wordToAdd);
-                MessageBox.Show("Cuvant adaugat cu succes!", "", MessageBoxButton.OK, MessageBoxImage.Information);
+                if (!App._repository.WordExists(wordToAdd) && !App._repository.WordNameExists(wordToAdd.WordName))
+                {
+                    App._repository.AddWord(wordToAdd);
+                    MessageBox.Show("Cuvant adaugat cu succes!", "", MessageBoxButton.OK, MessageBoxImage.Information);
 
-                wordTb.Clear();
-                descriptionTb.Clear();
-                categoryCb.SelectedIndex = -1;
+                    wordTb.Clear();
+                    descriptionTb.Clear();
+                    categoryCb.SelectedIndex = -1;
+                }
+                else
+                {
+                    MessageBox.Show("Cuvantul exista deja!", "", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                    
                 _picturePath = "default";
-
-                Close();
             }
         }
 

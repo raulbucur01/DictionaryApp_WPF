@@ -9,28 +9,53 @@
         Title="Joc" Height="450" Width="800"
         ResizeMode="NoResize">
     <Grid>
-        <StackPanel Name="startStackPanel" VerticalAlignment="Center" Visibility="Collapsed">
+        <!-- Welcome UI -->
+        <StackPanel Name="startStackPanel" VerticalAlignment="Center" Visibility="Visible">
             <Label Name="welcomeLabel" Content="Joc de ghicit cuvinte" Height="50" Width="280" FontSize="30" Margin="30"/>
             <Button Name="startBtn" Height="50" Width="150" Content="START" FontSize="30" Margin="30"
                     Click="startBtn_Click"/>
         </StackPanel>
 
-        <Grid Name="gameGrid" Visibility="Visible">
+        <!-- Game UI -->
+        <Grid Name="gameGrid" Visibility="Collapsed">
             <Label Name="gameStatusLabel" Content="Ghiceste cuvintele:" FontSize="25" Margin="10,10,543,347"/>
 
             <Label Name="amountGuessedLabel" Content="Ghicite: 0/5" FontSize="25" Margin="624,10,10,347"/>
+            
+            <Label Name="roundLabel" Content="Runda: 0" FontSize="25" Margin="624,49,10,308"/>
 
             <Label Name="clueLabel" Content="Indiciu: " VerticalAlignment="Top" Margin="90,129,599,0" Height="67" FontSize="25"/>
 
-            <Image Name="clueImage" Height="180"  Width="180" Margin="303,72,317,182" Visibility="Visible"/>
-            <Border BorderBrush="Black" BorderThickness=".1" Visibility="Visible" Margin="206,114,168,217">
-                <TextBlock Name="clueTb" Margin="206,112,168,219" FontSize="16" />
-            </Border>
-            <Button Name="nextBtn" Content="Next" HorizontalAlignment="Left" Margin="658,336,0,0" VerticalAlignment="Top" Width="98" Height="42" IsEnabled="False" FontSize="16"/>
-            <Button Name="verifyBtn" Content="Verify" HorizontalAlignment="Left" Margin="533,336,0,0" VerticalAlignment="Top" Width="99" Height="42" FontSize="16"/>
-            <TextBox Name="guessTb" HorizontalAlignment="Left" Margin="208,324,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Height="54"/>
+            <Image Name="clueImage" Height="180"  Width="180" Margin="303,72,317,182" Visibility="Collapsed"
+                   Stretch="UniformToFill"/>
+            <Rectangle Name="clueRectangle"  HorizontalAlignment="Left" Height="105" Margin="206,112,0,0"
+                       Stroke="Black" VerticalAlignment="Top" Width="426" Visibility="Collapsed"/>
+            <TextBlock Name="clueTblock" TextWrapping="Wrap" Margin="206,112,168,219"
+                       FontSize="20" Visibility="Collapsed" TextAlignment="Center" VerticalAlignment="Center"/>
+
+            <Button Name="nextBtn" Content="Next" HorizontalAlignment="Left" Margin="658,336,0,0" 
+                    Click="nextBtn_Click"
+                    VerticalAlignment="Top" Width="98" Height="42" IsEnabled="False" FontSize="16"/>
+
+            <Button Name="verifyBtn" Content="Verify" HorizontalAlignment="Left" Margin="533,336,0,0" 
+                    Click="verifyBtn_Click"
+                    VerticalAlignment="Top" Width="99" Height="42" FontSize="16"/>
+
+            <TextBox Name="guessTb" HorizontalAlignment="Left" Margin="208,324,0,0" TextWrapping="Wrap" 
+                     VerticalAlignment="Top" Width="192" Height="54" FontSize="20" TextAlignment="Center"/>
             <Label Content="Raspuns:" HorizontalAlignment="Left" Margin="90,325,0,0" VerticalAlignment="Top" Width="110" FontSize="25" Height="53"/>
 
+        </Grid>
+
+        <!-- Game finish UI -->
+        <Grid Name="finishGrid" Visibility="Collapsed">
+            <StackPanel Margin="0,160,0,117">
+                <Label Name="resultLabel" Content="Jocul s-a incheiat. Ai ghicit: 0/5" Width="358" FontSize="25" Visibility="Visible"
+                   HorizontalAlignment="Center"/>
+            
+                <Button Name="restartBtn" Height="50" Width="100" Content="Restart" FontSize="20" Margin="20"
+                        Click="restartBtn_Click"/>
+            </StackPanel>
         </Grid>
     </Grid>
 </Window>

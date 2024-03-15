@@ -11,14 +11,8 @@ namespace DictionaryApp.Views.AdminModule
         {
             Owner = parent;
             InitializeComponent();
-            
-            List<Word> words = App._repository.Words;
 
-            List<string> wordStrings = new List<string>();
-            foreach (Word word in words)
-            {
-                wordStrings.Add(word.WordName);
-            }
+            List<string> wordStrings = App._repository.GetAllWordNames();
             wordsListBox.ItemsSource = wordStrings;
         }
 
@@ -46,6 +40,22 @@ namespace DictionaryApp.Views.AdminModule
             }
 
             e.Handled = true;
+        }
+
+        private void searchTb_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (!string.IsNullOrEmpty(searchTb.Text))
+            {
+                string searchedText = searchTb.Text;
+
+                List<string> suggestions = App._repository.GetSuggestions(searchedText);
+
+                wordsListBox.ItemsSource = suggestions;
+            }
+            else
+            {
+                wordsListBox.ItemsSource = App._repository.GetAllWordNames();
+            }
         }
     }
 }
