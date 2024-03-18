@@ -8,7 +8,7 @@
         WindowStartupLocation="CenterOwner"
         Title="Joc" Height="450" Width="800"
         ResizeMode="NoResize">
-    <Grid>
+    <Grid Background="#FFB1CAF9">
         <!-- Welcome UI -->
         <StackPanel Name="startStackPanel" VerticalAlignment="Center" Visibility="Visible">
             <Label Name="welcomeLabel" Content="Joc de ghicit cuvinte" Height="50" Width="280" FontSize="30" Margin="30"/>

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="Dictionar Explicativ" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FFB1CAF9">
         <Grid.RowDefinitions>
             <RowDefinition Height="40"/>
             <RowDefinition/>
@@ -18,7 +18,7 @@
         <Button Grid.Row="0" Name="loginBtn" Content="Administrator login" FontSize="16"
                 HorizontalAlignment="Right" Margin="5" Click="loginBtn_Click"/>
 
-       
+
         <StackPanel Grid.Row="1">
             <Label Content="Dictionar explicativ" Grid.Row="1" 
             HorizontalAlignment="Center" Margin="0,80,0,50"
