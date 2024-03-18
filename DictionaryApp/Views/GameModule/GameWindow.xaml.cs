@@ -29,6 +29,7 @@ namespace DictionaryApp.Views.GameModule
             if (type == 1)
             {
                 clueImage.Visibility = Visibility.Collapsed;
+
                 clueTblock.Visibility = Visibility.Visible;
                 clueRectangle.Visibility = Visibility.Visible;
                 clueTblock.Text = clueToDisplay;
@@ -37,6 +38,7 @@ namespace DictionaryApp.Views.GameModule
             {
                 clueTblock.Visibility = Visibility.Collapsed;
                 clueRectangle.Visibility = Visibility.Collapsed;
+
                 clueImage.Visibility = Visibility.Visible;
                 BitmapImage bitmapImage = new BitmapImage(new Uri(clueToDisplay));
 
@@ -69,6 +71,7 @@ namespace DictionaryApp.Views.GameModule
                     nextBtn.IsEnabled = true;
                     verifyBtn.IsEnabled = false;
                     amountGuessedLabel.Content = $"Ghicite: {++correctAnsweredAmount}/5";
+
                     MessageBox.Show("RASPUNS CORECT!", " Raspuns corect",
                     MessageBoxButton.OK, MessageBoxImage.Information);
                 }
@@ -76,6 +79,7 @@ namespace DictionaryApp.Views.GameModule
                 {
                     nextBtn.IsEnabled = true;
                     verifyBtn.IsEnabled = false;
+
                     MessageBox.Show($"Raspuns gresit. Raspunsul corect era: {crtAnswer}", "Corect",
                     MessageBoxButton.OK, MessageBoxImage.Information);
                 }

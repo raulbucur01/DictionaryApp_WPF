@@ -1,5 +1,4 @@
-﻿using DictionaryApp.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Windows;
 
 namespace DictionaryApp.Views.AdminModule
