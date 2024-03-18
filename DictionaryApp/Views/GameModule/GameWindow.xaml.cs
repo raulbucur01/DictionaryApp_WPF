@@ -49,6 +49,8 @@ namespace DictionaryApp.Views.GameModule
             startStackPanel.Visibility = Visibility.Collapsed;
             gameGrid.Visibility = Visibility.Visible;
 
+            round = 1;
+            correctAnsweredAmount = 0;
             HandleClueRetrieval();
         }
 
@@ -110,7 +112,7 @@ namespace DictionaryApp.Views.GameModule
             gameGrid.Visibility = Visibility.Visible;
             round = 1;
             correctAnsweredAmount = 0;
-            amountGuessedLabel.Content = $"Ghicite: {++correctAnsweredAmount}/5";
+            amountGuessedLabel.Content = $"Ghicite: {correctAnsweredAmount}/5";
             roundLabel.Content = $"Runda: {round}";
 
             HandleClueRetrieval();

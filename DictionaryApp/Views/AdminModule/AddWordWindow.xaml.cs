@@ -84,11 +84,18 @@ namespace DictionaryApp.Views.AdminModule
                 // luam numele categoriei noi din window
                 string newCategoryName = newCategoryWindow.NewCategoryName;
 
-                // adaugam noua categorie la repo
-                App._repository.AddCategory(newCategoryName);
+                if (!App._repository.Categories.Contains(newCategoryName))
+                {
+                    // adaugam noua categorie la repo
+                    App._repository.AddCategory(newCategoryName);
 
-                // selectam ca aleasa noua categorie
-                categoryCb.SelectedItem = newCategoryName;
+                    // selectam ca aleasa noua categorie
+                    categoryCb.SelectedItem = newCategoryName;
+                }
+                else
+                {
+                    MessageBox.Show("Categoria exista deja!", "Eroare", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
     }
